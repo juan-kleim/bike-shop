@@ -1,0 +1,106 @@
+{% load static %}
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Home</title>
+
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg blur-navbar navbar-floating
+     navbar-custom fixed-top">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <a class="nav-link" href="#">Hidden brand</a>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                <div class="d-flex">
+                    <ul class="navbar-nav me-2 mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Users</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <img src="{% static 'images/moon.png' %}" id="icon" class="me-4">
+    </nav>
+
+    <div class="wrapper">
+        <div class="container mt-5">
+            <div class="row justify-content-center mt-5">
+                <div class="col-md-4">
+                    <div class="card custom-card" style="width: 20rem;">
+                        <img src="https://pbs.twimg.com/media/GMdVNR7XoAAiHdo.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Yamaha YZF-R1</h5>
+                            <p class="card-text">A Yamaha YZF-R1 é uma superesportiva emblemática, conhecida por sua combinação de potência e tecnologia. Equipada com um motor de 998cc de 4 cilindros em linha, oferece uma potência e uma aceleração impressionante.</p>
+                            <a href="#" class="btn btn-primary">Saiba mais</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card custom-card" style="width: 20rem;">
+                        <img src="https://pbs.twimg.com/media/FcAJ9jZX0AA7hV9.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Yamaha YZF-R6</h5>
+                            <p class="card-text">A Yamaha YZF-R6 é uma superesportiva emblemática, reconhecida por sua fusão de potência e tecnologia. Equipada com um motor de 599cc de 4 cilindros em linha, oferece uma combinação excepcional de potência e aceleração.</p>
+                            <a href="#" class="btn btn-primary">Saiba mais</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card custom-card" style="width: 20rem;">
+                        <img src="https://i.pinimg.com/originals/c9/fa/1f/c9fa1fe941b396e280a3546ce83eec30.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Yamaha YZF-R15</h5>
+                            <p class="card-text">A Yamaha YZF-R15 é uma moto esportiva que impressiona pela sua agilidade e estilo. Equipada com um motor de 155cc, monocilíndrico, a R15 oferece um equilíbrio notável entre desempenho e eficiência.</p>
+                            <a href="#" class="btn btn-primary">Saiba mais</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<script>
+    var icon = document.getElementById("icon");
+    icon.onclick = function(){
+        document.body.classList.toggle("dark-theme");
+        if (document.body.classList.contains("dark-theme")){
+            icon.src = "{% static 'images/sun.png' %}";
+        } else {
+            icon.src = "{% static 'images/moon.png' %}"
+        }
+    }
+</script>
+
+
+
+    <!-- Resto do conteúdo da página -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+</body>
+
+<footer class="footer mt-03">
+    <div class="container">
+        <span class="text-muted">Place sticky footer content here.</span>
+    </div>
+</footer>
