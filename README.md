@@ -4,8 +4,8 @@ Projeto web utilizando Django.
 
 ## Sobre
 
-Objetivo: criar um template base para montar um site com itens em destaque.
-Desenho: o site possui uma navbar centralizada com três cards logo abaixo, utilizando fotos de motos como padrão.
+Objetivo: criar um template base para montar uma página com itens em destaque.
+Desenho: o site possui uma navbar centralizada com três cards logo abaixo, utilizando fotos de motos Yamaha como padrão.
 Obs: o projeto está sem um banco de dados incluído. Cabe ao usuário essa etapa.
 
 ## Tecnologias Utilizadas
