@@ -1,4 +1,4 @@
-# Post-Shop
+# Web Shop
 
 Projeto web utilizando Django.
 
