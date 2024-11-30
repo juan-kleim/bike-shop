@@ -1,4 +1,4 @@
-# Web Shop
+# Bike Shop
 
 Projeto web utilizando Django.
 
