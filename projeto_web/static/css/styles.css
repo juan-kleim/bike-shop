@@ -19,7 +19,7 @@
     top: 0;
     left: 50%;
     transform: translateX(-50%);
-    z-index: 1030; /* Ensure it stays on top of other content */
+    z-index: 1030;
     width: 100%;
     max-width: 1000px;
     border: 1px solid #212121;
@@ -40,7 +40,7 @@
 
 .navbar-custom .nav-link:hover,
 .display-effect:hover {
-    transform: scale(1.1); /* Aumenta o tamanho em 10% */
+    transform: scale(1.1);
 }
 
 /* Desfoque gaussiano para navbar */
@@ -70,7 +70,7 @@ body {
 /* Design dos cards */
 .custom-card {
     border: 1px solid var(--secondary-color);
-    margin-top: 60px; /* Adiciona um espaçamento superior entre os cards */
+    margin-top: 60px;
     max-width: 1070px;
     left: 50%;
     transform: translateX(-50%);
@@ -92,7 +92,7 @@ body {
 
 .card-img-top {
     width: 100%;
-    height: 300px; /* Ajuste conforme necessário */
+    height: 300px;
     object-fit: cover;
 }
 
