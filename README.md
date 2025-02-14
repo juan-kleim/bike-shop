@@ -1,37 +1,36 @@
 # Bike Shop
 
-Projeto web utilizando Django.
+Web project using Django.
 
-## Sobre
+## About
 
-Objetivo: criar um template para montar uma página com itens em destaque.
+**Objective:** Create a template for building a page with featured items.
 
-Desenho: a página possui uma navbar centralizada com três cards logo abaixo, utilizando fotos de motos Yamaha como padrão.
+**Design:** The page features a centered navbar with three cards below, using Yamaha motorcycle photos as placeholders.
 
-Obs: o projeto está sem um banco de dados incluído. Cabe ao usuário essa etapa.
+**Note:** The project does not include a database. It is up to the user to set up this part.
 
-## Tecnologias Utilizadas
+## Technologies Used
 
-- **[Django](https://www.djangoproject.com/):** Framework web para desenvolvimento do backend.
-- **[Bootstrap](https://getbootstrap.com/):** Utilizado para estilização e layout responsivo.
+- **[Django](https://www.djangoproject.com/):** Web framework for backend development.  
+- **[Bootstrap](https://getbootstrap.com/):** Used for styling and responsive layout.  
 
+## Prerequisites
 
-## Pré-requisitos
+Before starting, ensure you have the following tools installed on your machine:
 
-Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
+- **IDE:** It's good to have a code editor, such as [VSCode](https://code.visualstudio.com/).  
+- **Python:** Download it [here](https://www.python.org/downloads/).  
+- **Django:** Install it by running `pip install django` in your IDE's terminal.  
 
-- IDE | É bom ter um editor para trabalhar com o código, como [VSCode](https://code.visualstudio.com/).
-- Python | Faça o download por [aqui](https://www.python.org/downloads/).
-- Django | Digite "pip install django" no terminal da sua IDE.
+## Installation
 
-## Instalação
-
-1. Clone este repositório:
+1. Clone this repository:
    ```bash
    git clone https://github.com/pachzn/post-shop.git
 
 ## Secret Key
-A `SECRET_KEY` do Django é usada para fornecer criptografia e deve ser mantida em segredo. Você pode configurar a `SECRET_KEY` criando um arquivo `.env` na raiz do projeto com o seguinte conteúdo:
+The `SECRET_KEY` in Django is used for cryptographic operations and must be kept secret. You can configure it by creating a `.env` file in the project's root directory with the following content:
 
 ```env
 DJANGO_SECRET_KEY=your-very-secret-key
