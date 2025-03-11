@@ -27,7 +27,7 @@ Before starting, ensure you have the following tools installed on your machine:
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/pachzn/post-shop.git
+   git clone https://github.com/juan-kleim/bike-shop.git
 
 ## Secret Key
 The `SECRET_KEY` in Django is used for cryptographic operations and must be kept secret. You can configure it by creating a `.env` file in the project's root directory with the following content:
